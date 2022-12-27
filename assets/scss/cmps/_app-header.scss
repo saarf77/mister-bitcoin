@@ -14,11 +14,21 @@
   }
 
   nav > * {
-    padding: 20px 35px;
+    padding: 21px 35px;
 
     &.active {
       background-color: #FB8500;
       color: aliceblue;
     }
   }
+}
+
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.menu-button {
+  display: none;
 }
