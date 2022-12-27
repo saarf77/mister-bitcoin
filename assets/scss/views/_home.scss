@@ -1,0 +1,57 @@
+.home {
+  width: fit-content;
+  margin: 0 auto;
+  img {
+    border: 2px solid darkgray;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+  }
+
+  h3 {
+    padding: 5px;
+    font-weight: 500;
+
+    span {
+      padding-left: 20px;
+      font-weight: 400;
+    }
+  }
+
+  .transactions {
+    padding-top: 20px;
+    border-top: 2px solid darkgray;
+  }
+
+  p {
+    padding-left: 30px;
+  }
+
+  li {
+    list-style: square;
+  }
+}
+
+.home {
+
+
+  section {
+    margin: 20px 0;
+
+    h3 {
+      font-weight: bold;
+    }
+
+    span {
+      color: #023047;
+      font-weight: bold;
+    }
+  }
+
+  .transactions {
+    margin-top: 30px;
+    font-weight: bold;
+  }
+}

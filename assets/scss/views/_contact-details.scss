@@ -1,0 +1,63 @@
+.contact-details {
+  width: fit-content;
+  margin: 0 auto;
+
+  img {
+    border: 2px solid #023047;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    object-fit:cover;
+  }
+
+  h2 {
+    // padding: 10px;
+    font-weight: 500;
+  }
+
+  h4 {
+    padding-block: 5px;
+    font-weight: 400;
+    // margin-bottom: 10px;
+  }
+
+  .action-btns {
+    margin-block: 30px;
+    .action-btn {
+      background-color: #8ECAE6;
+      padding: 5px 10px;
+      border-radius: 3px;
+      margin: 5px;
+
+      &:hover {
+        transform: translateY(-50px);
+        background-color:#219EBC;
+        color: white;
+        text-decoration: none;
+        transition: .2s;
+      }
+    }
+  }
+  .transactions {
+    padding-top: 20px;
+    border-top: 2px solid darkgray;
+  }
+
+  p {
+    padding-left: 30px;
+  }
+
+  li {
+    list-style: square;
+  }
+}
+
+
+// .contact-details {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+
+// }

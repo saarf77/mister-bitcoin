@@ -1,0 +1,53 @@
+.contact-edit {
+    display: flex;
+    flex-direction: column;
+  }
+  .edit-header{
+        margin: 1em 0 ;
+    
+  }
+  .contact-edit label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .contact-edit input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-edit button {
+    background-color: #219EBC;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    &:hover{
+        background-color: darken( #219EBC,5%);
+        transition: .2s;  
+        
+    }
+  }
+  
+  .contact-edit .action-btn {
+    background-color: #FB8500;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+    text-decoration: none;
+    &:hover{
+        background-color: darken( #FB8500,5%);
+        transition: .2s;  
+ 
+    }
+  }
+  
