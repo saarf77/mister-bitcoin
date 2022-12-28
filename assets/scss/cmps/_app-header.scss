@@ -14,11 +14,13 @@
   }
 
   nav > * {
-    padding: 21px 35px;
+    padding: 20.5px 40px;
+    margin-right: -13px;
 
     &.active {
       background-color: #FB8500;
       color: aliceblue;
+      font-weight: 500;
     }
   }
 }
