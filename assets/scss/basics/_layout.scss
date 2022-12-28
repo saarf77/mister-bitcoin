@@ -195,7 +195,7 @@
     border: 1px solid #ccc;
     min-width: 150px;
     align-items: flex-start;
-    transform: translateX(0%);
+    // transform: translateX(0%);
     align-items: flex-start;
     width: 40%;
     overflow: hidden;
@@ -223,10 +223,32 @@
 
 
     }
+
+  }
+  .contact-details .action-btns {
+    width: 100% !important;
   }
   
 .signup form {
     width: 100% !important;
+}
+
+.transfer-fund form{
+  width: 100%;
+  & input {
+    border-bottom: 2px black solid ;
+  }
+}
+.contact-details {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0px -33px !important;
+}
+.contact-details .action-btns .action-btn {
+  background-color: #8ECAE6;
+  padding: 8px 18px !important;
+  border-radius: 3px;
+  margin: 5px;
 }
 body:has(.signup){
   background-position:19% !important;

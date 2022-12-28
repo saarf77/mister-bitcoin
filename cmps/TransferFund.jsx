@@ -13,7 +13,7 @@ export class _TransferFund extends Component {
   render() {
     let { loggedInUser } = this.props;
     const { contact } = this.props;
-    let moves = loggedInUser.moves.filter((move) => move.contact === contact);
+    // let moves = loggedInUser.moves.filter((move) => move.contact === contact);
 
     return (
       <section className="transfer-fund">
@@ -26,9 +26,9 @@ export class _TransferFund extends Component {
         <div className="transactions">
           <h3>Transactions:</h3>
           <ul>
-            {moves.map((move) => (
+            {/* {moves.map((move) => (
               <li>Transfer Amount: {move.amount}</li>
-            ))}
+            ))} */}
           </ul>
         </div>
       </section>
