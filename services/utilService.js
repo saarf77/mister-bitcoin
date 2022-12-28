@@ -1,6 +1,8 @@
 export const utilService = {
     save: saveToStorage,
-    loadFromStorage
+    loadFromStorage,
+    store,
+    load
 }
 
 
@@ -15,5 +17,11 @@ function loadFromStorage(key) {
 
 
 
-function privateStuff() {
-}
+function store(key, value) {
+    localStorage[key] = JSON.stringify(value);
+  }
+  
+  function load(key, defaultValue = null) {
+    var value = localStorage[key] || defaultValue;
+    return JSON.parse(value);
+  }

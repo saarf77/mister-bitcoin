@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import { transferFund } from "../store/actions/userActions";
 
 export class _TransferFund extends Component {
-  onTrasferFund = (ev) => {
+  transferFund = (ev) => {
     ev.preventDefault();
     const amount = +ev.target[0].value;
     this.props.transferFund(amount, this.props.contact);
@@ -18,7 +18,7 @@ export class _TransferFund extends Component {
     return (
       <section className="transfer-fund">
         <h1>Transfer Fund</h1>
-        <form onSubmit={this.onTrasferFund}>
+        <form onSubmit={this.transferFund}>
           <label htmlFor="amount">Amount</label>
           <input type="number" name="amount" id="amount" />
           <button>Transfer</button>
