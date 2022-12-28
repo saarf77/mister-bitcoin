@@ -27,8 +27,32 @@
 .nav-wrapper {
   display: flex;
   align-items: center;
+
+
 }
 
 .menu-button {
   display: none;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #023047;
+
+  font-size: 2em;
+padding-right: 10px;
+  // &:hover{
+  //   background-color: #f8ebeb;
+
+  // }
 }
+
+
+.menu-button svg {
+  width: 20px;
+  height: 20px;
+  fill: #ff5a5f;
+}
+
+
+
