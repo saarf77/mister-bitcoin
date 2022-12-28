@@ -154,10 +154,27 @@
 
 //mobile
 @media (max-width: 500px) {
+  .simple-cards-grid > * {
+margin: auto 0;
+}
+.contact-preview{
+  background-size: 25% !important;
+  background-position-y: top !important;
+}
+
+.contact-preview .actions {
+  height: 29% !important;
+  display: flex !important;
+  align-items:center;
+  justify-content: space-around;
+  position: relative;
+  background-color: #219EBC;
+  transform: translateY(0%) !important; 
+  padding: 0px !important;
+}
   .statistics-page {
     height: 60vh;
-    // display: flex;
-    // justify-content: space-around;
+
     .chart {
       padding: 10px;
     }
